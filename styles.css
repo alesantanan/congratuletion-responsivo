@@ -1,0 +1,137 @@
+/* Este é o cabesalio padrão para confirguração do texto e sempre deve ficar em cima no topo, pois as letras ficaram padrão do tamanho e fonte escolhido e se faz necessário zerar a confirguração dos navegadores */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+div { 
+    height: 100vh;
+    width: 100vw;
+}
+
+.Link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sing-up {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+img { 
+    margin: 163px 0 0 123px;
+    display: inline-block;
+    }
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}    
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+    }
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}    
+
+.button-learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+    
+
+.Link-menu {
+    display: none;
+}
+
+header {
+    display: inline-block;
+}
+
+img {
+    position: absolute;
+    width: 412px;
+    top: 440px;
+    left: -25%;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+p {
+    font-size: 18px;
+    line-height: 33px;
+    position: absolute;
+    top: 250px;    
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.button-sing-up {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    height: 40px;
+    cursor: pointer;
+    
+    
+}
+
+.button-learn-more {
+    font-size: 18px;
+    line-height: 33px;
+    position: absolute;
+    top:490px;
+    left: 180px;
+    cursor: pointer;
+
+}
+}
